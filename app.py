@@ -114,6 +114,3 @@ def getData(id):
 
     data["weather"] = data["weather"].to_dict('records')
     return data
-
-if __name__ == "__main__":
-      app.run(debug=True)
